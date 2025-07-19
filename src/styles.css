@@ -1,13 +1,14 @@
 body {
-  background-color: pink;
-  color: black;
+  background-color:  #e6a4b4;
+  color:  black;
 }
 .container {
-  background: white;
+  background: #f5eee6;
   border-radius: 10px;
   height: 100%;
   margin: 0 auto;
   margin-top: 25px;
+
   padding: 30px;
   width: 45%;
 }
