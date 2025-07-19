@@ -1,23 +1,60 @@
 body {
+  background-color: pink;
   color: black;
 }
 .container {
-  background: red;
+  background: white;
   border-radius: 10px;
-  height: 70vh;
+  height: 100%;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 25px;
   padding: 30px;
   width: 45%;
 }
-.title {
-  margin-top: 60px;
+.page-title {
+  margin-top: 40px;
   text-align: center;
 }
 .mission-statement {
   text-align: center;
 }
+#question-containers {
+  display: block;
+  height: 13vh;
+  padding: 10px 20px;
+  position: relative;
+  right: 130px;
+  top: -10px;
+  width: 60%;
+}
+input {
+  margin-bottom: 7px;
+}
+.questions-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.select-box {
+  border-radius: 40px;
+  height: 5vh;
+  width: 85%;
+}
+.name-generator-section {
+  text-align: center;
+}
+.name-button {
+  border: 1px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 10px;
+}
+
 footer {
+  font-size: 12px;
   margin-top: 10px;
   text-align: center;
+}
+a {
+  color: grey;
 }
