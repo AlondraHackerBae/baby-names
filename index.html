@@ -26,6 +26,7 @@
       <hr />
       <div class="container text-right" id="question-containers">
         <label for="boy" class="questions-title">What is the baby's gender?</label>
+        <fieldset>
         <div class="row">
           <div class="col">
             <label for="boy">Boy</label>
@@ -34,7 +35,8 @@
             <input
               type="radio"
               id="gender"
-              value="boy"
+              name="gender"
+              value="boy" 
               class="radio-button"
             />
           </div>
@@ -47,11 +49,13 @@
             <input
               type="radio"
               id="gender"
+              name="gender"
               value="Girl"
               class="radio-button"
             />
           </div>
         </div>
+        </fieldset>
         <div class="row">
           <div class="col">
             <label for="Unknown">Unknown</label>
@@ -60,6 +64,7 @@
             <input
               type="radio"
               id="gender"
+              name="gender"
               value="Unknown"
               class="radio-button"
             />
@@ -102,6 +107,7 @@
           <br />
            <div class="container text-right" id="question-containers">
         <label for="popular" class="questions-title">Do you want a popular or unique name?</label>
+        <fieldset>
         <div class="row">
           <div class="col">
             <label for="popular">Popular</label>
@@ -110,7 +116,7 @@
             <input
               type="radio"
               id="popular"
-              name="popular"
+              name="popularity"
               value="popular"
               class="radio-button"
             />
@@ -124,7 +130,7 @@
             <input
               type="radio"
               id="Unique"
-              name="Unique"
+              name="popularity"
               value="Unique"
               class="radio-button"
             />
@@ -138,7 +144,7 @@
             <input
               type="radio"
               id="No-preference"
-              name="No-preference"
+             name="popularity"
               value="No-preference"
               class="radio-button"
             />
@@ -147,6 +153,7 @@
       </div>
       </div>
       </div>
+      </fieldset>
       <br />
       <hr />
           <div class="name-generator-section"> 
