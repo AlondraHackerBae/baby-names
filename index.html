@@ -26,7 +26,7 @@
       <hr />
       <div class="container text-right" id="question-containers">
         <label for="boy" class="questions-title">What is the baby's gender?</label>
-        <fieldset>
+        <form>
         <div class="row">
           <div class="col">
             <label for="boy">Boy</label>
@@ -50,12 +50,11 @@
               type="radio"
               id="gender"
               name="gender"
-              value="Girl"
+              value="girl"
               class="radio-button"
             />
           </div>
         </div>
-        </fieldset>
         <div class="row">
           <div class="col">
             <label for="Unknown">Unknown</label>
@@ -65,10 +64,12 @@
               type="radio"
               id="gender"
               name="gender"
-              value="Unknown"
+              value="unknown"
               class="radio-button"
             />
           </div>
+          <input type="submit" class="submit-button"/>
+           </form>
         </div>
       </div>
       </div>
@@ -78,7 +79,7 @@
         <label for="origins" class="questions-title" id="origins">What is your preffered name origin?</label>
             <div class="row">
           <div class="col">
-            <select id="origins" class="select-box"> 
+            <select class="select-box"> 
             <option value="">Select an origin</option>  
          <option value="">Hebrew</option>
             <option value="">Arabic</option>  
