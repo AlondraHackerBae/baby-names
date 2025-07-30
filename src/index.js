@@ -5,7 +5,7 @@ function revealBabyName(response) {
 function generateBabyName(event) {
   event.preventDefault();
 
-  let genderInput = document.querySelector("#gender");
+  let genderInput = document.querySelectorAll(input[(name = "gender")]);
 
   let apiKey = "8590002d4163ob0d0at3864bcd25fb7b";
   let prompt = `What are unique baby names for ${genderInput.value} gender`;
@@ -17,4 +17,4 @@ function generateBabyName(event) {
 }
 
 let babyGender = document.querySelector("#gender");
-babyGender.addEventListener("click", generateBabyName);
+babyGender.addEventListener("submit", generateBabyName);
