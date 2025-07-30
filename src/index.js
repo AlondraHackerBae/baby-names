@@ -5,7 +5,7 @@ function revealBabyName(response) {
 function generateBabyName(event) {
   event.preventDefault();
 
-  let genderInput = document.querySelectorAll(input[(name = "gender")]);
+  let genderInput = document.getElementsByName("gender");
 
   let apiKey = "8590002d4163ob0d0at3864bcd25fb7b";
   let prompt = `What are unique baby names for ${genderInput.value} gender`;
@@ -16,5 +16,5 @@ function generateBabyName(event) {
   axios.get(url).then(revealBabyName);
 }
 
-let babyGender = document.querySelector("#gender");
+let babyGender = document.getElementsByName("#gender");
 babyGender.addEventListener("submit", generateBabyName);
